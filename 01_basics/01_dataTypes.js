@@ -22,3 +22,18 @@ console.log(3+3)
 
 console.log(typeof undefined) // ---> undefined
 console.log(typeof null)      // ---> object
+
+/*
+    DATA TYPE CONVERSIONS
+        "33" => 33
+        "33abc" => NaN (Not a Number)
+        true => 1; false => 0
+        null => 0
+        undefined => NaN
+
+        To convert use Number(), Boolean(), String() etc..
+*/
+
+let score = "33"
+let noScore = Number(score)
+console.log(typeof noScore)
